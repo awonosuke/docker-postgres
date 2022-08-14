@@ -1,0 +1,6 @@
+\c docker
+
+CREATE SCHEMA core;
+CREATE ROLE gopher WITH LOGIN PASSWORD 'docker';
+
+GRANT ALL PRIVILEGES ON SCHEMA core TO gopher;
