@@ -457,3 +457,6 @@ FodyWeavers.xsd
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,visualstudio,vim
 
+
+# For docker compose environment variable
+.env
